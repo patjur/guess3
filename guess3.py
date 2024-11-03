@@ -1,7 +1,7 @@
 from flask import Flask, request
 
 
-app = Flask(guess3)
+app = Flask(__name__)
 
 
 HTML_START = """
